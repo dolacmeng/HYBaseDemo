@@ -10,7 +10,6 @@
 		377E6807338ECFF473A25809 /* Pods_HYBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3063A35A0AD2E2C62F7CE72 /* Pods_HYBase.framework */; };
 		FB4554C523C5B49F003CA08E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4554C423C5B49F003CA08E /* AppDelegate.m */; };
 		FB4554C823C5B49F003CA08E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4554C723C5B49F003CA08E /* SceneDelegate.m */; };
-		FB4554CB23C5B49F003CA08E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4554CA23C5B49F003CA08E /* ViewController.m */; };
 		FB4554CE23C5B49F003CA08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4554CC23C5B49F003CA08E /* Main.storyboard */; };
 		FB4554D023C5B4A1003CA08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4554CF23C5B4A1003CA08E /* Assets.xcassets */; };
 		FB4554D323C5B4A1003CA08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4554D123C5B4A1003CA08E /* LaunchScreen.storyboard */; };
@@ -51,8 +50,6 @@
 		FB4554C423C5B49F003CA08E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FB4554C623C5B49F003CA08E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		FB4554C723C5B49F003CA08E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		FB4554C923C5B49F003CA08E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB4554CA23C5B49F003CA08E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FB4554CD23C5B49F003CA08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB4554CF23C5B4A1003CA08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4554D223C5B4A1003CA08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -148,13 +145,11 @@
 		FB4554C223C5B49F003CA08E /* HYBase */ = {
 			isa = PBXGroup;
 			children = (
-				FB4554F823C5B4D8003CA08E /* HYBase */,
+				FB4554F823C5B4D8003CA08E /* HYBaseFile */,
 				FB4554C323C5B49F003CA08E /* AppDelegate.h */,
 				FB4554C423C5B49F003CA08E /* AppDelegate.m */,
 				FB4554C623C5B49F003CA08E /* SceneDelegate.h */,
 				FB4554C723C5B49F003CA08E /* SceneDelegate.m */,
-				FB4554C923C5B49F003CA08E /* ViewController.h */,
-				FB4554CA23C5B49F003CA08E /* ViewController.m */,
 				FB4554CC23C5B49F003CA08E /* Main.storyboard */,
 				FB4554CF23C5B4A1003CA08E /* Assets.xcassets */,
 				FB4554D123C5B4A1003CA08E /* LaunchScreen.storyboard */,
@@ -183,7 +178,7 @@
 			path = HYBaseUITests;
 			sourceTree = "<group>";
 		};
-		FB4554F823C5B4D8003CA08E /* HYBase */ = {
+		FB4554F823C5B4D8003CA08E /* HYBaseFile */ = {
 			isa = PBXGroup;
 			children = (
 				FB4554F923C5B50D003CA08E /* HYBaseViewController.h */,
@@ -200,7 +195,7 @@
 				FB45550C23C5C276003CA08E /* HYPassport.h */,
 				FB45550D23C5C276003CA08E /* HYPassport.m */,
 			);
-			path = HYBase;
+			path = HYBaseFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,7 +374,6 @@
 			files = (
 				FB45550E23C5C276003CA08E /* HYPassport.m in Sources */,
 				FB45550123C5BC64003CA08E /* UIView+HYView.m in Sources */,
-				FB4554CB23C5B49F003CA08E /* ViewController.m in Sources */,
 				FB4554FB23C5B50D003CA08E /* HYBaseViewController.m in Sources */,
 				FB4554FE23C5B891003CA08E /* HYActionSheet.m in Sources */,
 				FB4554C523C5B49F003CA08E /* AppDelegate.m in Sources */,
