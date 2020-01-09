@@ -13,6 +13,3 @@
 #import "UIView+HYView.h"
 #import "HYPassport.h"
 
-#define kSCREENW [UIScreen mainScreen].bounds.size.width
-#define kSCREENH [UIScreen mainScreen].bounds.size.height
-

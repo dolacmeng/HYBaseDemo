@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "HYBase"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "基础类，包含基于AFNetworking的网络请求、HUB、Toast、ActionSheet等"
   spec.description  = <<-DESC
                           基础类，包含基于AFNetworking的网络请求、HUB、Toast、ActionSheet等"
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/dolacmeng/HYBaseDemo"
   spec.license      = "MIT"
   spec.author             = { "jackxu" => "151611438@qq.com" }
-  spec.source       = { :git => "https://github.com/dolacmeng/HYBaseDemo.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/dolacmeng/HYBaseDemo.git", :tag => "1.0.1" }
   spec.source_files  = "HYBase/HYBaseFile"
   spec.frameworks  = "UIKit","Foundation"
   spec.requires_arc = true
