@@ -8,6 +8,7 @@
 
 #import "HYHttpTool.h"
 #import "AFNetworking.h"
+#import "YYKit.h"
 
 static AFHTTPSessionManager *manager;
 

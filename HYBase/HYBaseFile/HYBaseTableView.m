@@ -96,7 +96,7 @@
     if (_emptyView == nil) {
         _emptyView = [[UIView alloc] initWithFrame:self.bounds];
         
-        UILabel *text = [[UILabel alloc] initWithFrame:CGRectMake(0, self.bounds.size.width/2-100, kSCREENW, 20)];
+        UILabel *text = [[UILabel alloc] initWithFrame:CGRectMake(0, self.bounds.size.width/2-100, self.bounds.size.width, 20)];
         [text setFont:[UIFont systemFontOfSize:16]];
         [text setTextColor:[UIColor grayColor]];
         [text setTextAlignment:NSTextAlignmentCenter];

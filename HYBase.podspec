@@ -14,6 +14,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                           基础类，包含基于AFNetworking的网络请求、HUB、Toast、ActionSheet等"
                       DESC
+  spec.platform     = :ios, "8.0"
   spec.homepage     = "https://github.com/dolacmeng/HYBaseDemo"
   spec.license      = "MIT"
   spec.author             = { "jackxu" => "151611438@qq.com" }

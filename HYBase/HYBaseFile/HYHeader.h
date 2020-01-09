@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "HYBaseViewController.h"
 #import "HYBaseTableView.h"
-#import "YYKit.h"
 #import "HYActionSheet.h"
 #import "UIView+HYView.h"
 #import "HYPassport.h"
