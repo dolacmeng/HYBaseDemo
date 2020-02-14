@@ -11,5 +11,5 @@
 #import "HYBaseTableView.h"
 #import "HYActionSheet.h"
 #import "UIView+HYView.h"
-#import "HYPassport.h"
-
+#import "HYBasePassport.h"
+#import "HYHttpTool.h"

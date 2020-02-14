@@ -21,7 +21,7 @@
 		FB45550123C5BC64003CA08E /* UIView+HYView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB45550023C5BC64003CA08E /* UIView+HYView.m */; };
 		FB45550423C5BE2B003CA08E /* HYHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FB45550323C5BE2B003CA08E /* HYHttpTool.m */; };
 		FB45550B23C5C1D6003CA08E /* HYBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB45550A23C5C1D6003CA08E /* HYBaseTableView.m */; };
-		FB45550E23C5C276003CA08E /* HYPassport.m in Sources */ = {isa = PBXBuildFile; fileRef = FB45550D23C5C276003CA08E /* HYPassport.m */; };
+		FB45550E23C5C276003CA08E /* HYBasePassport.m in Sources */ = {isa = PBXBuildFile; fileRef = FB45550D23C5C276003CA08E /* HYBasePassport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +73,8 @@
 		FB45550823C5BF55003CA08E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FB45550923C5C1D6003CA08E /* HYBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBaseTableView.h; sourceTree = "<group>"; };
 		FB45550A23C5C1D6003CA08E /* HYBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBaseTableView.m; sourceTree = "<group>"; };
-		FB45550C23C5C276003CA08E /* HYPassport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYPassport.h; sourceTree = "<group>"; };
-		FB45550D23C5C276003CA08E /* HYPassport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPassport.m; sourceTree = "<group>"; };
+		FB45550C23C5C276003CA08E /* HYBasePassport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBasePassport.h; sourceTree = "<group>"; };
+		FB45550D23C5C276003CA08E /* HYBasePassport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBasePassport.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,8 +192,8 @@
 				FB45550223C5BE2B003CA08E /* HYHttpTool.h */,
 				FB45550323C5BE2B003CA08E /* HYHttpTool.m */,
 				FB45550523C5BEFA003CA08E /* HYHeader.h */,
-				FB45550C23C5C276003CA08E /* HYPassport.h */,
-				FB45550D23C5C276003CA08E /* HYPassport.m */,
+				FB45550C23C5C276003CA08E /* HYBasePassport.h */,
+				FB45550D23C5C276003CA08E /* HYBasePassport.m */,
 			);
 			path = HYBaseFile;
 			sourceTree = "<group>";
@@ -372,7 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB45550E23C5C276003CA08E /* HYPassport.m in Sources */,
+				FB45550E23C5C276003CA08E /* HYBasePassport.m in Sources */,
 				FB45550123C5BC64003CA08E /* UIView+HYView.m in Sources */,
 				FB4554FB23C5B50D003CA08E /* HYBaseViewController.m in Sources */,
 				FB4554FE23C5B891003CA08E /* HYActionSheet.m in Sources */,

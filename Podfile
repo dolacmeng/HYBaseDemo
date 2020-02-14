@@ -10,7 +10,6 @@ target 'HYBase' do
 	pod 'AFNetworking'
 	pod 'MBProgressHUD'
 	pod 'YYKit'
-	pod 'MWPhotoBrowser'
 	pod 'MJRefresh'
 	pod 'IQKeyboardManager'
   

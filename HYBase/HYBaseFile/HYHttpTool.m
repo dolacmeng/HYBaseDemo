@@ -16,8 +16,7 @@ static AFHTTPSessionManager *manager;
 
 +(void)createAsynchronousRequest:(NSString *)action parameters:(NSDictionary *)parameters success:(void(^)(NSDictionary *dic))success failure:(void(^)(void))failure{
     
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@/app/",[self getHttpPrefix]]];
-    
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@/app/",self.httpPrefix]];
     
     if (!manager || ![manager.baseURL isEqual:url]) {
         manager = [[AFHTTPSessionManager alloc] initWithBaseURL:url];
@@ -80,8 +79,7 @@ static AFHTTPSessionManager *manager;
     }];
 }
 
-+(NSString*)getHttpPrefix{
-    return @"http://dianmian.lingyitrade.com";
-}
+
+
 
 @end

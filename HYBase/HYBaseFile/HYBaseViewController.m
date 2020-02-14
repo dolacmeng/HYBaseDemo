@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    HYHttpTool.httpPrefix = @"";
 }
 
 //显示HUD

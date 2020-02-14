@@ -10,14 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HYPassport : NSObject
+@interface HYBasePassport : NSObject
 
 @property(nonatomic,strong) NSString *authToken;
 
+/// 单例
++ (instancetype)sharedPassport;
 
-/**
- 退出登录
- */
+/// 退出登录
 - (void)logout;
 
 @end

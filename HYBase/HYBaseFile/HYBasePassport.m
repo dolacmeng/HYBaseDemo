@@ -6,10 +6,10 @@
 //  Copyright © 2020 JXRice. All rights reserved.
 //
 
-#import "HYPassport.h"
+#import "HYBasePassport.h"
 #import <objc/runtime.h>
 
-@implementation HYPassport
+@implementation HYBasePassport
 
 @dynamic authToken;
 

@@ -20,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param failure 失败回调
 +(void)createAsynchronousRequest:(NSString *)action parameters:(NSDictionary *)parameters success:(void(^)(NSDictionary *dic))success failure:(void(^)(void))failure;
 
+@property(class) NSString *httpPrefix;
+
 @end
 
 NS_ASSUME_NONNULL_END
